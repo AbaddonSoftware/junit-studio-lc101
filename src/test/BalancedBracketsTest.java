@@ -46,6 +46,7 @@ public class BalancedBracketsTest {
     public void noBracketReturnsTrue() {
         assertTrue(BalancedBrackets.hasBalancedBrackets(""));
     }
+
     @Test
     public void singleBracketReturnsFalse() {
         assertFalse(BalancedBrackets.hasBalancedBrackets("]"));

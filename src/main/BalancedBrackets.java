@@ -80,18 +80,10 @@ public class BalancedBrackets {
      */
 
     public static boolean hasBalancedBrackets(String aString, boolean mustContainBrackets) {
-        int bracketsBalanced = 0;
-        if (aString.contains("[") && mustContainBrackets) {
+        if (!aString.contains("[") && mustContainBrackets) {
             return false;
         }
-        for (char character : aString.toCharArray()) {
-            bracketsBalanced += (character == '[') ? 1 : 0;
-            bracketsBalanced -= (character == ']') ? 1 : 0;
-            if (bracketsBalanced < 0 || bracketsBalanced > 1) {
-                return false;
-            }
-        }
-        return bracketsBalanced == 0;
+        return hasBalancedBrackets(aString);
     }
 
 
