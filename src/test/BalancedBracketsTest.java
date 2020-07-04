@@ -9,7 +9,7 @@ public class BalancedBracketsTest {
 
     @Test
     public void bracketedStringReturnsTrue() {
-        assertTrue(BalancedBrackets.hasBalancedBrackets("[string]"));
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[Launchcode]"));
     }
 
     @Test
@@ -24,7 +24,7 @@ public class BalancedBracketsTest {
 
     @Test
     public void multipleBracketsOutOfOrderReturnsFalse() {
-        assertFalse(BalancedBrackets.hasBalancedBrackets("][][][[]["));
+        assertFalse(BalancedBrackets.hasBalancedBrackets("][[][]["));
     }
 
     @Test
@@ -41,6 +41,9 @@ public class BalancedBracketsTest {
     public void onlyLeftBracketReturnsFalse() {
         assertFalse(BalancedBrackets.hasBalancedBrackets("["));
     }
+
+    @Test
+    public void onlyRightBracketReturnsFalse() { assertFalse(BalancedBrackets.hasBalancedBrackets("]")); }
 
     @Test
     public void noBracketReturnsTrue() {
