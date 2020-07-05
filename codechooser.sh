@@ -40,4 +40,4 @@ if [[ "${Names[$INDEX-1],,}" == *"test"* ]];
 then Test="org.junit.runner.JUnitCore" 
 else Test="" 
 fi
-cd out/repl.it/ ; java -cp .:lib/* $Test ${Classes[$INDEX-1]}
+clear; cd out/repl.it/ ; java -cp .:lib/* $Test ${Classes[$INDEX-1]}

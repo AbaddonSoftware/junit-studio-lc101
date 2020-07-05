@@ -90,10 +90,11 @@ public class BalancedBrackets {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String[] testStrings = {"LaunchCode", "Launch[Code]", "[LaunchCode", "Launch]Code[", "[", "][",  "[LaunchCode]", "Launch[Code]", "[]LaunchCode", "[]", ""};
+        String[] testStrings = {"LaunchCode", "Launch[Code]", "[LaunchCode", "Launch]Code[", "[", "][",  "[LaunchCode]", "Launch[Code]", "[]LaunchCode", "[]", "" , "[[]]", "[Tac[0]caT]"};
         System.out.println("Examples for base code.");
         for(String aString : testStrings) {
             System.out.print(aString+ " has balanced brackets = " +hasBalancedBrackets(aString)+ " / ");
+
         }
 
         System.out.println("\n\nSame examples when not allowing no bracket options.");

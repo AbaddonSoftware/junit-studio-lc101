@@ -1,6 +1,5 @@
 package main;
 
-import java.lang.invoke.SwitchPoint;
 import java.util.Scanner;
 
 public class BonusBinarySearch {
