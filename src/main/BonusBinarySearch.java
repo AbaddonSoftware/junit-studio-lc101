@@ -1,5 +1,8 @@
 package main;
 
+import java.lang.invoke.SwitchPoint;
+import java.util.Scanner;
+
 public class BonusBinarySearch {
 
     /**
@@ -50,6 +53,25 @@ public class BonusBinarySearch {
             }
         }
         return -1;
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int[] sortedTestInts = {1, 3, 5, 6, 8, 9, 12, 15, 18, 29, 32, 38, 43, 55, 64, 72, 83};
+        System.out.print("numbers in our sorted array of ints: ");
+        for (int aNumber : sortedTestInts) {
+            System.out.print(aNumber + " ");
+        }
+        System.out.println("\nEnter a number to search for: ");
+        int anInt = input.nextInt();
+        if(binarySearch(sortedTestInts, anInt) == -1) {
+            System.out.println("The number was not found");
+        }
+        else {
+            System.out.println("The number was found at index " +binarySearch(sortedTestInts, anInt));
+        }
+
+
     }
 
 }

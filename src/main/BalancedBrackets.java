@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Scanner;
+
 public class BalancedBrackets {
 
 
@@ -86,5 +88,24 @@ public class BalancedBrackets {
         return hasBalancedBrackets(aString);
     }
 
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String[] testStrings = {"LaunchCode", "Launch[Code]", "[LaunchCode", "Launch]Code[", "[", "][",  "[LaunchCode]", "Launch[Code]", "[]LaunchCode", "[]", ""};
+        System.out.println("Examples for base code.");
+        for(String aString : testStrings) {
+            System.out.print(aString+ " has balanced brackets = " +hasBalancedBrackets(aString)+ " / ");
+        }
+
+        System.out.println("\n\nSame examples when not allowing no bracket options.");
+        for(String aString : testStrings) {
+            System.out.print(aString+ " has balanced brackets and must contain brackets = " +hasBalancedBrackets(aString, true)+ " / ");
+        }
+
+        System.out.println("\n\nEnter a string to test if contains balanced brackets:");
+        String aString = input.nextLine();
+        System.out.println(aString+ " has balanced brackets = " +hasBalancedBrackets(aString));
+        System.out.println(aString+ " has balanced brackets and must contain brackets = " +hasBalancedBrackets(aString, true));
+
+    }
 
 }
