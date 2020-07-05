@@ -44,7 +44,7 @@ public class BalancedBrackets {
      * The string may contain non-bracket characters as well.
      * <p>
      * These strings have balanced brackets:
-     * "[LaunchCode]", "Launch[Code]", "[]LaunchCode", "[]"
+     * "[LaunchCode]", "Launch[Code]", "[]LaunchCode", "[]", ""
      * <p>
      * While these do not:
      * "[LaunchCode", "Launch]Code[", "[", "]["
@@ -77,7 +77,7 @@ public class BalancedBrackets {
      *
      * @param aString             - to be validated
      * @param mustContainBrackets - boolean value indicating whether bracketless
-     *                            strings should return true or false.
+     *                            strings are allowed.
      * @return true if balanced, false otherwise.
      */
 
@@ -93,13 +93,13 @@ public class BalancedBrackets {
         String[] testStrings = {"LaunchCode", "Launch[Code]", "[LaunchCode", "Launch]Code[", "[", "][",  "[LaunchCode]", "Launch[Code]", "[]LaunchCode", "[]", "" , "[[]]", "[Tac[0]caT]"};
         System.out.println("Examples for base code.");
         for(String aString : testStrings) {
-            System.out.print(aString+ " has balanced brackets = " +hasBalancedBrackets(aString)+ " / ");
+            System.out.println(aString+ " has balanced brackets = " +hasBalancedBrackets(aString));
 
         }
 
         System.out.println("\n\nSame examples when not allowing no bracket options.");
         for(String aString : testStrings) {
-            System.out.print(aString+ " has balanced brackets and must contain brackets = " +hasBalancedBrackets(aString, true)+ " / ");
+            System.out.print(aString+ " has balanced brackets and must contain brackets = " +hasBalancedBrackets(aString, true));
         }
 
         System.out.println("\n\nEnter a string to test if contains balanced brackets:");

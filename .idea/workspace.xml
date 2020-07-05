@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="added repl.it stuff to make it easier to run">
+    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="added some extra tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codechooser.sh" beforeDir="false" afterPath="$PROJECT_DIR$/codechooser.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BalancedBrackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" afterDir="false" />
     </list>
@@ -51,7 +50,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.BalancedBrackets">
+  <component name="RunManager" selected="JUnit.BinarySearchTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -168,10 +167,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BalancedBrackets" />
-        <item itemvalue="Application.BonusBinarySearch" />
-        <item itemvalue="JUnit.BalancedBracketsTest" />
         <item itemvalue="JUnit.BinarySearchTest" />
+        <item itemvalue="JUnit.BalancedBracketsTest" />
+        <item itemvalue="Application.BonusBinarySearch" />
+        <item itemvalue="Application.BalancedBrackets" />
         <item itemvalue="JUnit.BalancedBracketsTest.emptyTest" />
       </list>
     </recent_temporary>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593975976910</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added some extra tests">
+      <created>1593978988173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593978988173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,25 +217,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added repl.it stuff to make it easier to run" />
-    <option name="LAST_COMMIT_MESSAGE" value="added repl.it stuff to make it easier to run" />
+    <MESSAGE value="added some extra tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some extra tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="382" key="GridCell.Tab.0.bottom" timestamp="1593978073302">
+    <state width="1874" height="382" key="GridCell.Tab.0.bottom" timestamp="1593979763734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="382" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1593978073302" />
-    <state width="1874" height="382" key="GridCell.Tab.0.center" timestamp="1593978073302">
+    <state width="1874" height="382" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1593979763734" />
+    <state width="1874" height="382" key="GridCell.Tab.0.center" timestamp="1593979763734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="382" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1593978073302" />
-    <state width="1874" height="382" key="GridCell.Tab.0.left" timestamp="1593978073301">
+    <state width="1874" height="382" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1593979763734" />
+    <state width="1874" height="382" key="GridCell.Tab.0.left" timestamp="1593979763734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="382" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1593978073301" />
-    <state width="1874" height="382" key="GridCell.Tab.0.right" timestamp="1593978073302">
+    <state width="1874" height="382" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1593979763734" />
+    <state width="1874" height="382" key="GridCell.Tab.0.right" timestamp="1593979763734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="382" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1593978073302" />
+    <state width="1874" height="382" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1593979763734" />
     <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593975980841">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

@@ -57,7 +57,7 @@ public class BonusBinarySearch {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] sortedTestInts = {1, 3, 5, 6, 8, 9, 12, 15, 18, 29, 32, 38, 43, 55, 64, 72, 83};
-        System.out.print("numbers in our sorted array of ints: ");
+        System.out.println("numbers in our sorted array of ints: ");
         for (int aNumber : sortedTestInts) {
             System.out.print(aNumber + " ");
         }
